@@ -2,7 +2,7 @@
 
 public class Program
 {
-    public static double CalculateAverage(int[] array)
+    public static double CalculateAvg(int[] array)
     {
         if (array == null || array.Length == 0)
         {
