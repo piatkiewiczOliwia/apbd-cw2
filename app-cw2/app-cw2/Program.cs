@@ -16,4 +16,16 @@ public class Program
 
         return (double)sum / array.Length;
     }
+
+    public static int max(int[] arr)
+    {
+        int max = 0;
+        foreach (var i in arr)
+        {
+            if (i > max)
+                max = i;
+        }
+
+        return max;
+    }
 }
